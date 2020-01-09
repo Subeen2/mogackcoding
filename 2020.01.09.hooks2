@@ -1,0 +1,14 @@
+import React from 'react';
+
+
+
+const Try ({props}) = {
+    return (
+      <div>
+      <li>{value.tries}</li>
+      <li>{value.result}</li>
+      </div>
+    );
+}
+
+export default Try;
